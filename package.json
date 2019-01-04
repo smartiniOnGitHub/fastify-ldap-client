@@ -1,0 +1,42 @@
+{
+  "name": "fastify-ldap-client",
+  "version": "0.1.0",
+  "description": "Fastify Plugin to connect to LDAP servers",
+  "main": "src/plugin",
+  "scripts": {
+    "example": "node example/example",
+    "example-enhanced": "node example/example-enhanced",
+    "lint": "standard \"./*.js\" \"./src/**/*.js\" \"./test/**/*.test.js\" \"./example/**/*.js\"",
+    "test:unit": "tap -J test/*.test.js test/*/*.test.js",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "dependencies": {
+    "fastify-plugin": "^1.4.0",
+    "ldapjs-client": "^0.1.1"
+  },
+  "devDependencies": {
+    "fastify": "^1.13.3",
+    "simple-get": "^3.0.3",
+    "standard": "^12.0.1",
+    "tap": "^12.1.1"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=8.14.0"
+  },
+  "homepage": "https://github.com/smartiniOnGitHub/fastify-ldap-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartiniOnGitHub/fastify-ldap-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smartiniOnGitHub/fastify-ldap-client/issues"
+  },
+  "keywords": [
+    "fastify",
+    "plugin",
+    "ldap"
+  ],
+  "author": "Sandro Martini <sandro.martini@gmail.com>",
+  "license": "Apache-2.0"
+}
