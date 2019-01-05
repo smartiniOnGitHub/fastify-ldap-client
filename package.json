@@ -1,7 +1,7 @@
 {
   "name": "fastify-ldap-client",
   "version": "0.1.0",
-  "description": "Fastify Plugin to connect to LDAP servers",
+  "description": "Fastify Plugin to connect and authenticate to LDAP servers",
   "main": "src/plugin",
   "scripts": {
     "example": "node example/example",
@@ -38,5 +38,5 @@
     "ldap"
   ],
   "author": "Sandro Martini <sandro.martini@gmail.com>",
-  "license": "Apache-2.0"
+  "license": "MIT"
 }

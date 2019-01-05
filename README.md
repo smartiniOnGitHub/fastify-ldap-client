@@ -6,7 +6,7 @@
   [![Coverage Status](https://coveralls.io/repos/github/smartiniOnGitHub/fastify-ldap-client/badge.svg?branch=master)](https://coveralls.io/github/smartiniOnGitHub/fastify-ldap-client/?branch=master)
   [![Dependencies](https://david-dm.org/smartiniOnGitHub/fastify-ldap-client.svg)](https://david-dm.org/smartiniOnGitHub/fastify-ldap-client.svg)
 
-Fastify Plugin to serialize events in the CloudEvents standard format.
+Fastify Plugin to connect and authenticate to LDAP servers.
 
 TODO: add more content and usage ...
 
@@ -24,6 +24,6 @@ Nothing.
 
 ## License
 
-Licensed under [Apache-2.0](./LICENSE).
+Licensed under [MIT](./LICENSE).
 
 ----
