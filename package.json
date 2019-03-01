@@ -11,18 +11,18 @@
     "test": "npm run lint && npm run test:unit"
   },
   "dependencies": {
-    "fastify-plugin": "^1.4.0",
+    "fastify-plugin": "^1.5.0",
     "ldapjs-client": "^0.1.1"
   },
   "devDependencies": {
-    "fastify": "^1.13.3",
+    "fastify": "^1.14.2",
     "simple-get": "^3.0.3",
     "standard": "^12.0.1",
-    "tap": "^12.1.1"
+    "tap": "^12.5.3"
   },
   "peerDependencies": {},
   "engines": {
-    "node": ">=8.14.0"
+    "node": ">=8.15.0"
   },
   "homepage": "https://github.com/smartiniOnGitHub/fastify-ldap-client#readme",
   "repository": {
